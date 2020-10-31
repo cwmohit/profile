@@ -43,7 +43,7 @@ ul.nav li a.active {background-color: #290186;}
   padding: 0 40px;
   margin-top: 40px;
   width: 90%;
-  
+  margin-bottom: 20px;
 display: inline-block;
 /* height: 80vh; */
 }
@@ -51,7 +51,7 @@ display: inline-block;
 .responsive {
   width: 40%;
   height: auto;
-float: left;
+  float: left;
 }
 
 
@@ -105,7 +105,7 @@ footer{
   
   text-align: center;
   background-color: #f1f1f1;
-  height: 80vh;
+  
 }
 .flex-container {
   display: flex;
