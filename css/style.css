@@ -286,7 +286,7 @@ margin-bottom: 20px;
   }
 }@media screen and (max-width: 800px){
   .container{
-  
+  margin-top: 30px;
     text-align: center;
     background-color: aliceblue;
    height: auto;
