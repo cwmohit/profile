@@ -4,7 +4,7 @@ body {
 
   font-family: 'Anton', sans-serif;
   font-family: 'Ubuntu', sans-serif;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 
 /* *******Navbar****** */
@@ -116,7 +116,7 @@ display: inline-block;
 .container{
   
   text-align: center;
-  background-color: aliceblue;
+  background-color: whitesmoke;
 
 }
 .flex-container {
@@ -176,15 +176,13 @@ input, textarea{
 
 /* ************Industry Experience Section********** */
 .WorkingContainer{
-  margin: auto;
-  width: 65%;
+  /* margin: auto; */
+  /* width: 65%; */
+  display: flex;
+ margin: 30px 20px;
+justify-content: center;
+}
 
-}
-.heading{
-  text-align: center;
-  color: darkblue;
-  margin: 31px 0px;
-}
 table, th, td{
   border: 1px solid black;
   text-align: center;
@@ -288,7 +286,7 @@ margin-bottom: 20px;
   .container{
   margin-top: 30px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: whitesmoke;
    height: auto;
   }
   .flex-container {
@@ -307,17 +305,9 @@ margin-bottom: 20px;
   
     width: 90%;
   }
-  .WorkingContainer{
-    margin: auto;
-    width: 100%;
-    text-align: center;
-  }
+
 }
-@media screen and (max-width: 965px){
-  .WorkingContainer{
-width: 90%;
-  }
-}
+
 @media screen and (max-width: 713px){
   table, th, td{
     border: 1px solid black;
@@ -334,9 +324,7 @@ width: 90%;
     font-size: large;
    
   }
-  .WorkingContainer{
-    width: 100%;
-      }
+ 
 }
 @media screen and (max-width: 400px){
   table, th, td{
